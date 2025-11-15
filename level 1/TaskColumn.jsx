@@ -1,4 +1,4 @@
-const TaskColumn = ({ title, items }) => (
+const TaskColumn = ({ title }) => (
   <div className="column">
     <h2 className="column__title">{title}</h2>
     <div className="column__cards"></div>

@@ -10,7 +10,7 @@ const App = () => {
       <div className="board">
         <h2 className="board__title">Tasks</h2>
         <div className="board__columns">
-          <TaskColumn key="toDoColumn" title="To Do" />
+          <TaskColumn key="toDoColumn" title="To Do"  />
           <TaskColumn key="inProgressColumn" title="In Progress" />
           <TaskColumn key="doneColumn" title="Done" />
         </div>
